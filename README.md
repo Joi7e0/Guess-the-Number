@@ -1,8 +1,8 @@
+![Guess the Number (1)](https://github.com/Joi7e0/Guess-the-Number/assets/175101157/89755369-4369-4f11-8154-a8bfb26a6e57)
+
 # Вгадай число
 # Мета гри:
 Гравець повинен вгадати випадкове число, яке загадав комп'ютер, у визначеному діапазоні.
-
-![Guess the Number (1)](https://github.com/Joi7e0/Guess-the-Number/assets/175101157/89755369-4369-4f11-8154-a8bfb26a6e57)
 
 # Правила гри:
 
