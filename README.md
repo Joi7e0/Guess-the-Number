@@ -1,25 +1,24 @@
+# Guess the Number
 
-# Вгадай число 
-![Guess the Number (1)](https://github.com/Joi7e0/Guess-the-Number/assets/175101157/89755369-4369-4f11-8154-a8bfb26a6e57)
-# Мета гри:
-Гравець повинен вгадати випадкове число, яке загадав комп'ютер, у визначеному діапазоні.
 
-# Правила гри:
+# Objective of the Game:
+The player must guess a random number chosen by the computer within a specified range.
 
-Вибір діапазону: Комп'ютер випадковим чином обирає число в заданому діапазоні (наприклад, від 1 до 100).
+# Rules of the Game:
+Range Selection: The computer randomly selects a number within a given range (e.g., from 1 to 100).
 
-Спроби:Гравець вводить число, намагаючись вгадати загадане число.
+# Attempts: The player enters a number, trying to guess the chosen number.
 
-Підказки: Після кожної спроби комп'ютер повідомляє, більше чи менше загадане число порівняно з введеним.
-Якщо введене число менше загаданого, виводиться повідомлення: "Загадане число більше".
-Якщо введене число більше загаданого, виводиться повідомлення: "Загадане число менше".
+# Hints: After each attempt, the computer indicates whether the chosen number is higher or lower than the entered number.
+If the entered number is lower than the chosen number, the message "The chosen number is higher" is displayed.
+If the entered number is higher than the chosen number, the message "The chosen number is lower" is displayed.
 
-Перемога:Гра триває, поки гравець не вгадає загадане число. Коли гравець вгадує число, виводиться повідомлення про перемогу та кількість спроб, які знадобилися для вгадування числа.
+# Victory: The game continues until the player guesses the chosen number. When the player guesses the number, a victory message is displayed along with the number of attempts it took to guess the number.
 
-Вихід з гри: Гравець може завершити гру в будь-який момент, ввівши спеціальну команду (наприклад, 'exit').
+# Exiting the Game: The player can end the game at any time by entering a special command (e.g., 'exit').
 
-Обробка помилок: Якщо гравець вводить некоректне значення (наприклад, букви замість чисел), виводиться повідомлення про помилку і запит повторюється.
+# Error Handling: If the player enters an incorrect value (e.g., letters instead of numbers), an error message is displayed, and the prompt is repeated.
 
-# Приклад:
+# Example:
 
 ![image](https://github.com/Joi7e0/Guess-the-Number/assets/175101157/149b169b-6dc7-400e-b90e-f9b511589239)
