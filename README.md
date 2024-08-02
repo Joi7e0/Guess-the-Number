@@ -28,7 +28,5 @@ If the player enters an incorrect value (e.g., letters instead of numbers), an e
 
 ## Sample application:
 
-![image](https://github.com/Joi7e0/Guess-the-Number/assets/175101157/149b169b-6dc7-400e-b90e-f9b511589239)
-
 ![image](https://github.com/user-attachments/assets/d7192e3c-508a-479f-8ed7-4394d1c2c3af)
 
