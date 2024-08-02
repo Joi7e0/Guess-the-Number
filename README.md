@@ -26,6 +26,6 @@ The player can end the game at any time by entering a special command (e.g., 'ex
 ### Error Handling
 If the player enters an incorrect value (e.g., letters instead of numbers), an error message is displayed, and the prompt is repeated.
 
-## Example:
+## Sample application:
 
 ![image](https://github.com/Joi7e0/Guess-the-Number/assets/175101157/149b169b-6dc7-400e-b90e-f9b511589239)
