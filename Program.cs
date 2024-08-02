@@ -14,14 +14,14 @@ namespace projekt
             Console.ForegroundColor = ConsoleColor.Green;
             Random random = new Random();
             int secretNumber = random.Next(0, 100);
-            Console.WriteLine("Гра почалась!");
-            Console.WriteLine("Генеруємо число ...");
-            int attempts = 0; // спроби     
-            bool guessed = false; //вгадав 
+            Console.WriteLine("The game has started!");
+            Console.WriteLine("Generating a number ...");
+            int attempts = 0; // sprob     
+            bool guessed = false; // + 
 
             while (!guessed)
             {
-                Console.WriteLine("Введіть ваше припущення (1-100): ");
+                Console.WriteLine("Enter your guess (1-100): ");
                 string input = Console.ReadLine();
                 if (int.TryParse(input, out int guess))
                 {
@@ -29,27 +29,27 @@ namespace projekt
                     if (guess == secretNumber)
                     {
                         guessed = true;
-                        Console.WriteLine("Вітаю! Ви вгадали число {0} за {1} спроб.", secretNumber, attempts);
+                        Console.WriteLine("Congratulations! You guessed the number {0} in {1} attempts.", secretNumber, attempts);
                     }
                     else if (guess < secretNumber)
                     {
                         guessed = false;
-                        Console.WriteLine("Загадане число більше");
+                        Console.WriteLine("The guessed number is higher.");
                     }
                     else 
                     {
                         guessed = false;
-                        Console.WriteLine("Загадане число менше.");
+                        Console.WriteLine("The guessed number is lower.");
                     }
                 }
                 else
                     {
-                        Console.WriteLine("Некоректне введення. Будь ласка, введіть ціле число від 1 до 100.");
+                        Console.WriteLine("Invalid input. Please enter an integer between 1 and 100.");
                     }
                 
 
             }
-            Console.WriteLine("Гра завершена!");
+            Console.WriteLine("Game over!");
             Console.ReadLine();
         }
     }
